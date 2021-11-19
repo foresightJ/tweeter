@@ -1,0 +1,29 @@
+.userTweet{
+    border: none;
+    border-bottom: 2px solid black
+ 
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+.text-area label{
+   font-weight: bold;
+}
+.tweetbtn-counter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bungee', 'cursive';
+}
+.tweetbtn-counter button{
+    background-color: #4056a1;
+    color: white;
+}
+.counter {
+    font-weight: bolder;
+    color: #4056a1;
+}
